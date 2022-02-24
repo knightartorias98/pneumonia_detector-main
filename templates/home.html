@@ -1,0 +1,60 @@
+
+{% extends 'main.html' %}
+
+
+ 
+<main>
+{% block content %}
+
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <h2 style="text-align: center;">A Deep Learning based Web App</h2>
+<div class="container">
+   <div class="container">
+		       <div class="sm-2">
+    <div class="row row-cols-2 row-cols-sm-2 g-2">
+			<img src="{{url_for('static', filename='logo.jpg')}}" class="d-block w-5">
+
+      <div class="col">
+        <div class="card">
+
+
+          <div class="card-body">
+	</div>
+
+		<div class="container">
+            <div class="row">
+            <div class="col-md-24 card card-body" style="box-shadow: 0 0 10px black; margin:10px;">
+                <h4>Pneumonia</h4>
+                <p>Pneumonia is an infection that inflames the air sacs in one or both lungs ( Refer to <strong>Figure 1a</strong> ). The air sacs may fill with fluid or pus (purulent material), causing cough with phlegm or pus, fever, chills, and difficulty breathing.  It could also be a serious complication of <strong>COVID-19</strong>.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Cough, which may produce greenish, yellow or even bloody mucus.</li>
+                    <li>Fever, sweating and shaking chills.</li>
+                    <li>Shortness of breath.</li>
+                    <li>Rapid, shallow breathing.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+ <br>
+        
+     
+
+
+      
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+       
+        
+
+        <br>
+
+{% endblock %}
