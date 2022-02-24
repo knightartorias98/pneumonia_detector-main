@@ -2,7 +2,7 @@
 
 ## About
 
-This webapp was developed using Flask Web Framework and was deployed on Heroku server. The models used to predict pneumonia were trained on large Datasets. All the links for datasets and the python notebooks used for model creation are mentioned below in this readme.
+This webapp was developed using Flask Web Framework. The models used to predict pneumonia were trained on large Datasets. All the links for datasets and the python notebooks used for model creation are mentioned below in this readme.
 
 ## NOTE
 
