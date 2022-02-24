@@ -6,7 +6,7 @@ This webapp was developed using Flask Web Framework. The models used to predict 
 
 ## NOTE
 
-==> You can access the website live at: https://pneumonia-predictor-project.azurewebsites.net <br>
+==> You can access the website at: https://pneumonia-predictor-project.azurewebsites.net <br>
 ==> Python version 3.6.15 was used for the whole project.<br>
 
 ## Steps to run this application in your system
